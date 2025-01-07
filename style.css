@@ -1,0 +1,207 @@
+body{
+   font-style: oblique; 
+   background: black;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+.animation{
+    width:76%;
+    height:24rem;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    background-position: center;
+    margin-left: 15%;
+    
+}
+.first{
+    font-size: 2.0rem;
+    color: rgb(204, 190, 171);
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity:0 ;
+    animation: text1;
+    animation-duration: 10s;
+    animation-range-end: 100%;
+}
+   
+.sec{
+    font-size: 2.0rem;
+    color: rgb(186, 166, 136);
+    position: absolute;
+    top: 8rem;
+    opacity: 0;
+    animation: text2;
+    animation-duration: 10s;
+    animation-delay: 12s;
+   
+}
+.th{
+    font-size: 2.0rem;
+    color:rgb(105, 105, 144);
+    position: absolute;
+    bottom:45%;
+    top:45%;
+    opacity: 0;
+    animation: text3;
+    animation-duration: 10s;
+    animation-delay:22s;
+   white-space: nowrape;
+}
+.fo{
+    font-size: 2.0rem;
+    color:rgb(165, 121, 121);
+    position: absolute;
+    left:0;
+    top: 5rem;
+    opacity: 0;
+    animation: text4;
+    animation-duration: 10s;
+    animation-delay: 32s;
+    }
+.fif{
+    font-size: 2.0rem;
+    color:rgb(107, 115, 90);
+    position: absolute;
+    left:0;
+    top:2rem;
+    opacity: 0;
+    animation: text3;
+    animation-duration: 10s;
+    animation-delay:42s;
+   white-space: nowrape;
+}
+.six{
+    font-size: 2.0rem;
+    color: rgb(196, 218, 197);
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation: text6;
+    animation-duration: 10s;
+    animation-delay: 52s;
+}
+.seven{
+    font-size: 2.0rem;
+    color: rgb(196, 206, 130);
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation: text7;
+    animation-duration: 10s;
+    animation-delay: 62s;
+}
+@keyframes text1{
+    0%
+    {
+        top:-3rem;
+        opacity: 0;
+    }
+    75%{
+        top:25%;
+        opacity: 1;
+    }
+    100%{
+        left:0;
+       opacity: 0;
+    }
+}
+@keyframes text2{
+    0%
+    {
+        top:-3rem;
+        opacity: 0;
+    }
+    75%{
+        top:25%;
+        opacity: 1;
+    }
+    100%{
+        left:0;
+       opacity: 0;
+    }
+}
+@keyframes text3{
+    0%
+    {
+        bottom: -3rem;
+        opacity: 0;
+    }
+    75%{
+       
+        bottom: 5%;
+        opacity: 1;
+    }
+    100%{
+       top: 0;
+        opacity: 0;
+    }
+}
+@keyframes text4{
+    0%
+    {
+        top:-3rem;
+        opacity: 0;
+    }
+    75%{
+        top:25%;
+        opacity: 1;
+    }
+    100%{
+        left:0;
+       opacity: 0;
+    }
+}
+@keyframes text5{
+    
+    0%
+    {
+        left:0;
+        opacity: 0;
+    }
+    75%{
+        left:25%;
+        opacity: 1;
+    }
+    100%{
+        left:0;
+       opacity: 0;
+    }
+}
+@keyframes text6{
+    0%
+    {
+        top:-3rem;
+        opacity: 0;
+    }
+    75%{
+        top:25%;
+        opacity: 1;
+    }
+    100%{
+        left:0;
+        opacity: 0;
+    }
+}
+@keyframes text7{
+    0%
+    {
+        top:-3rem;
+        opacity: 0;
+    }
+    75%{
+        top:25%;
+        opacity: 1;
+    }
+    100%{
+        left:0;
+        opacity: 0;
+    }
+}
+
+
